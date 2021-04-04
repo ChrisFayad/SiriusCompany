@@ -35,7 +35,7 @@ var data = {
     cap_6: ``,
     cap_7: ``,
     cap_8: ``,
-    cright: ``
+    cright: `Sirius, Ltd. <br>Alle rechten voorbehouden.`
   },
   en:
   {
@@ -53,7 +53,7 @@ var data = {
     cap_6: `Lattakia Participants of ICTI Entrepreneurship Program 2017`,
     cap_7: `Attending EK Conference 2017`,
     cap_8: `Participating in Pechakucha Night 2017`,
-    cright: `Sirius, Ltd. All Rights Reserved.`
+    cright: `Sirius, Ltd. <br>All Rights Reserved.`
   },
   fr:
   {
@@ -71,7 +71,7 @@ var data = {
     cap_6: `Lattakia Participants du programme d'entrepreneuriat ICTI 2017`,
     cap_7: `Participation à la conférence EK 2017`,
     cap_8: `participation à Pechakucha Night 2017`,
-    cright: `Sirius, Ltd. Tous droits réservés.`
+    cright: `Sirius, Ltd. <br>Tous droits réservés.`
   },
   de:
   {
@@ -89,7 +89,7 @@ var data = {
     cap_6: `Lattakia Teilnehmer des ICTI Entrepreneurship Program 2017`,
     cap_7: `Teilnahme an der EK-Konferenz 2017`,
     cap_8: `Teilnahme an Pechakucha Night 2017`,
-    cright: `Sirius, Ltd. Alle Rechte vorbehalten.`
+    cright: `Sirius, Ltd. <br>Alle Rechte vorbehalten.`
   }
 };
 

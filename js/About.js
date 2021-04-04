@@ -43,7 +43,7 @@ var data = {
     li_en: `Engels`,
     li_fr: `Frans`,
     li_de: `Duits`,
-    cright: `Sirius, Ltd. Alle rechten voorbehouden.`
+    cright: `Sirius, Ltd. <br>Alle rechten voorbehouden.`
   },
   en:
   {
@@ -65,7 +65,7 @@ var data = {
     li_en: `English`,
     li_fr: `French`,
     li_de: `German`,
-    cright: `Sirius, Ltd. All Rights Reserved.`
+    cright: `Sirius, Ltd. <br>All Rights Reserved.`
   },
   fr:
   {
@@ -87,7 +87,7 @@ var data = {
     li_en: `Anglais`,
     li_fr: `Français`,
     li_de: `Allemand`,
-    cright: `Sirius, Ltd. Tous droits réservés.`
+    cright: `Sirius, Ltd. <br>Tous droits réservés.`
   },
   de:
   {
@@ -109,7 +109,7 @@ var data = {
     li_en: `Englisch`,
     li_fr: `Französisch`,
     li_de: `Deutsch`,
-    cright: `Sirius, Ltd. Alle Rechte vorbehalten.`
+    cright: `Sirius, Ltd. <br>Alle Rechte vorbehalten.`
   }
 };
 

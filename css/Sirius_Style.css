@@ -217,6 +217,7 @@ nav {
   background-color: white;
   color: black;
   width: fit-content;
+  width: -moz-fit-content;
   text-decoration: none;
 }
 footer {
@@ -303,7 +304,7 @@ footer a:hover {
   box-shadow: 0 0 0 0.2rem rgb(255 255 255);
 }
 #track_drop .dropdown-menu {
-  margin-left: 10px !important;
+  margin: 5px 15px;
 }
 .aside li {
     display: block;
@@ -315,6 +316,7 @@ footer a:hover {
 
 .container {
   width: 100%;
+  margin: 10% 0;
   padding: 10% 0 10%;
 }
 #slide .carousel-inner {
@@ -331,21 +333,21 @@ footer a:hover {
   line-height: 1.5em;
 }
 .carousel-control-prev, .carousel-control-next {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   background-color: #000000;
   border-radius: 50%;
-  top: calc(50% - 25px);
+  top: calc(45% - 45px);
 }
 .carousel-control-prev {
-  left: 3%;
+  left: 2%;
 }
 .carousel-control-next {
-  right: 3%;
+  right: 2%;
 }
 #togglePlayPause {
   position: absolute;
-  bottom: 15%;
+  bottom: 25%;
   right: 5%;
   color: white;
   cursor: pointer;
@@ -407,6 +409,7 @@ footer a:hover {
 }
 #slogan h4 {
   text-align: center;
+  font-size: 1.4em !important;
 }
 .icon img {
   width: 25%;
@@ -418,16 +421,25 @@ footer a:hover {
   visibility: hidden;
 }
 .teamicon img {
-  width: 118.41px;
+  width: 109px;
   height: auto;
   border-radius: 50%;
 }
 #rot img {
   transform: rotate(10deg);
 }
-#CEOcollap, #CTOcollap, #COOcollap {
-  height: 147.35px;
+.card-body {
+  height: 200px;
+}
+#CEOcollap, #CTOcollap {
+  height: 200px;
   margin-bottom: 15px;
+}
+#COOcollap {
+  margin-bottom: 15px;
+}
+#COOcollap .cont h3 {
+  padding-top: 25px;
 }
 .collapse img {
   width: 125px;
@@ -513,11 +525,17 @@ footer a:hover {
 .leading {
   width: fit-content;
   width: -moz-fit-content;
-  padding: 0 5px;
+  padding: 0 10px;
   margin: 0 auto;
   font-size: 1.1em;
   background-color: var(--anchBtn);
   border-radius: 50px;
+}
+.leading span {
+  content: '';
+  width: 100%;
+  height: 1em;
+  display: inline-block;
 }
 #contact form {
   width: 90%;
@@ -629,6 +647,18 @@ footer a:hover {
   .aside li:nth-child(3) {
     margin-left: 25%;
   }
+  .carousel-control-prev, .carousel-control-next {
+    width: 50px;
+    height: 50px;
+    top: calc(50% - 25px);
+  }
+  #togglePlayPause {
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    color: white;
+    cursor: pointer;
+  }
   /** About Us Page **/
   .btn-group {
     max-width: 95%;
@@ -702,6 +732,9 @@ footer a:hover {
     border-radius: 15px;
   }
   /** Contact Us Page **/
+  .leading span {
+    display: inline;
+  }
   #contact .button {
     margin: 15px 35% -5px;
   }

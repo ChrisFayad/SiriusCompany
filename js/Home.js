@@ -73,7 +73,7 @@ var data = {
     li_en: `Engels`,
     li_fr: `Frans`,
     li_de: `Duits`,
-    cright: `Sirius, Ltd. Alle rechten voorbehouden.`
+    cright: `Sirius, Ltd. <br>Alle rechten voorbehouden.`
   },
   en:
   {
@@ -97,20 +97,20 @@ var data = {
     cap_7: `Attending EK Conference 2017`,
     cap_8: `Participating in Pechakucha Night 2017`,
     img_0: `Photo of The Founders <br>Eng.Christina Fayad & Eng. Sulaiman Mohammad`,
-    img_1: `Presenting the "Sound of Mute" project for the 1st time <br>at the ICT Incubator in Lattakia, Syria 2015`,
-    img_2: `Receiving a Certificate for Participating in <br>the ICTI Entrepreneurship Program 2017`,
-    img_3: `During one of the Takween Entrepreneurship <br>Program Workshop 2017`,
+    img_1: `Presenting the "Sound of Mute" project for <br>the 1st time at the ICT Incubator <br>in Lattakia, Syria 2015`,
+    img_2: `Receiving a Certificate for Participating <br>in the ICTI Entrepreneurship Program 2017`,
+    img_3: `During one of the Takween <br>Entrepreneurship Program Workshop 2017`,
     img_4: `Getting the 2nd Place at the <br>"Youth Entrepreneurs of Syria" Bootcamp 2017`,
     img_5: `Participating in the "Innovation Avenue" <br>at ArabNet Beirut Conference 2018`,
-    img_6: `Receiving the "She Entrepreneurs Program" Diploma <br>from the Sweden Institute 2018`,
-    img_7: `Getting the 3rd Place at "BeChangeMaker" Competition <br>Amsterdam 2018`,
+    img_6: `Receiving the "SheEntrepreneurs" <br>Diploma from the Sweden Institute 2018`,
+    img_7: `Getting the 3rd Place at <br>"BeChangeMaker" Competition <br>Amsterdam 2018`,
     selected_lang: `<span class="flag-icon flag-icon-gb"></span> English`,
     li_ar: `Arabic`,
     li_nl: `Dutch`,
     li_en: `English`,
     li_fr: `French`,
     li_de: `German`,
-    cright: `Sirius, Ltd. All Rights Reserved.`
+    cright: `Sirius, Ltd. <br>All Rights Reserved.`
   },
   fr:
   {
@@ -134,20 +134,20 @@ var data = {
     cap_7: `Participation à la conférence EK 2017`,
     cap_8: `Participation à Pechakucha Night 2017`,
     img_0: `Photo des fondateurs <br>Ing. Christina Fayad & Ing. Sulaiman Mohammad`,
-    img_1: `Présentation du projet «Sound of Mute» pour la 1ère fois <br>à l'incubateur ICT de Lattaquié, Syrie 2015`,
-    img_2: `Obtention d'un certificat pour participation au <br>programme d'entrepreneuriat ICTI 2017`,
+    img_1: `Présentation du projet «Sound of Mute» <br>pour la 1ère fois à l'incubateur ICT <br>de Lattaquié, Syrie 2015`,
+    img_2: `Obtention d'un certificat pour <br>participation au programme <br>d'entrepreneuriat ICTI 2017`,
     img_3: `Lors de l'un des ateliers du programme <br>Takween Entrepreneurship 2017`,
     img_4: `Obtention de la 2e place au Bootcamp <br>«Jeunes entrepreneurs de Syrie» 2017`,
     img_5: `Participation à «l'avenue de l'innovation» <br>à la conférence ArabNet Beirut 2018`,
-    img_6: `Obtention du diplôme «She Entrepreneurs Program» <br>du Sweden Institute 2018`,
-    img_7: `Obtention de la 3ème place au concours «BeChangeMaker» <br>Amsterdam 2018`,
+    img_6: `Obtention du diplôme <br>«SheEntrepreneurs» du Sweden Institute 2018`,
+    img_7: `Obtention de la 3ème place <br>au concours «BeChangeMaker» <br>Amsterdam 2018`,
     selected_lang: `<span class="flag-icon flag-icon-fr"></span> Français`,
     li_ar: `Arabe`,
     li_nl: `Néerlandais`,
     li_en: `Anglais`,
     li_fr: `Français`,
     li_de: `Allemand`,
-    cright: `Sirius, Ltd. Tous droits réservés.`
+    cright: `Sirius, Ltd. <br>Tous droits réservés.`
   },
   de:
   {
@@ -171,20 +171,20 @@ var data = {
     cap_7: `Teilnahme an der EK-Konferenz 2017`,
     cap_8: `Teilnahme an Pechakucha Night 2017`,
     img_0: `Foto der Gründer <br> Eng.Christina Fayad & Eng. Sulaiman Mohammad`,
-    img_1: `Präsentation des Projekts "Sound of Mute" zum ersten Mal <br> beim ICT Incubator in Lattakia, Syrien 2015`,
-    img_2: `Erhalt eines Zertifikats für die Teilnahme am ICTI Entrepreneurship Program 2017`,
-    img_3: `Während eines der Takween Entrepreneurship <br> Program Workshop 2017`,
-    img_4: `Den 2. Platz beim <br> "Youth Entrepreneurs of Syria" Bootcamp 2017 Erhalten`,
-    img_5: `Teilnahme an der "Innovation Avenue" <br> auf der ArabNet Beirut Conference 2018`,
-    img_6: `Erhalt des Diploms "She Entrepreneurs Program" <br> vom Sweden Institute 2018`,
-    img_7: `Den 3. Platz beim "BeChangeMaker" -Wettbewerb <br> Amsterdam 2018 Erhalten`,
+    img_1: `Präsentation des Projekts <br>«Sound of Mute» zum ersten Mal <br>beim ICT Incubator in Lattakia, Syrien 2015`,
+    img_2: `Erhalt eines Zertifikats für die Teilnahme <br>am ICTI Entrepreneurship Program 2017`,
+    img_3: `Während eines der Takween <br>Entrepreneurship Program Workshop 2017`,
+    img_4: `Den 2. Platz beim <br>«Youth Entrepreneurs of Syria» <br>Bootcamp 2017 Erhalten`,
+    img_5: `Teilnahme an der «Innovation Avenue» <br> auf der ArabNet Beirut Conference 2018`,
+    img_6: `Erhalt des Diploms «SheEntrepreneurs» <br>vom Sweden Institute 2018`,
+    img_7: `Den 3. Platz beim <br>«BeChangeMaker» - Wettbewerb <br>Amsterdam 2018 Erhalten`,
     selected_lang: `<span class="flag-icon flag-icon-de"></span> Deutsche`,
     li_ar: `Arabisch`,
     li_nl: `Niederländisch`,
     li_en: `Englisch`,
     li_fr: `Französisch`,
     li_de: `Deutsch`,
-    cright: `Sirius, Ltd. Alle Rechte vorbehalten.`
+    cright: `Sirius, Ltd. <br>Alle Rechte vorbehalten.`
   }
 };
 
