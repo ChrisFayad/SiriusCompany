@@ -304,8 +304,16 @@ footer a:hover {
   box-shadow: 0 0 0 0.2rem rgb(255 255 255);
 }
 #track_drop .dropdown-menu {
-  width: auto;
-  margin: 5px 10px;
+  margin: 10px;
+}
+.aside li:nth-child(1) {
+  margin-left: 10%;
+}
+.aside li:nth-child(2) {
+  margin-left: 20%;
+}
+.aside li:nth-child(3) {
+  margin-left: 25%;
 }
 .aside li {
     display: block;
@@ -317,7 +325,7 @@ footer a:hover {
 
 .container {
   width: 100%;
-  margin: 10% 0;
+  margin: 20% 0;
   padding: 10% 0 10%;
 }
 #slide .carousel-inner {
@@ -638,15 +646,6 @@ footer a:hover {
   #track_drop .dropdown-menu {
     width: auto;
     margin-left: 10px !important;
-  }
-  .aside li:nth-child(1) {
-    margin-left: 10%;
-  }
-  .aside li:nth-child(2) {
-    margin-left: 20%;
-  }
-  .aside li:nth-child(3) {
-    margin-left: 25%;
   }
   .carousel-control-prev, .carousel-control-next {
     width: 50px;
