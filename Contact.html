@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://kit.fontawesome.com/c4ec55e32a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha512-Cv93isQdFwaKBV+Z4X8kaVBYWHST58Xb/jVOcV9aRsGSArZsgAnFIhMpDoMDcFNoUtday1hdjn0nGp3+KZyyFw==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/Sirius_Style.css"/>
+  <link rel="icon" type="image/png" href="images/LoGoS.png"/>
+  <title>Sirius Company</title>
+</head>
+  <body>
+    <a class="skip-navigation" href="#main"><span id="skip">Skip Navigation</span></a>
+    <header>
+      <nav>
+        <div class ="FontLogo" title="Sirius Logo anchor that take you to the Home Page"><a href="index.html" class = "active"><img alt="Sirius Font Logo" src="images/Sirius_Font.png"/></a></div>
+        <div tabindex="0" class="topnav" id="mTopnav" title="Top Navigation Includes four Pages">
+          <a id="aUs" href="About.html"><span id="about">About Us</span></a>
+          <a href="Team.html"><span id="team">Our Team</span></a>
+          <a href="Product.html"><span id="prod">Products</span></a>
+          <a href="#"><span id="con">Contact Us</span></a>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a id="Mob-nav" href="javascript:void(0);" role="button" class="icon" onclick="myFunction()" aria-label="Mobile Navigation Button" aria-expanded="false">
+            <i class="fa fa-bars"></i></a>
+          </div>
+        </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <div id="contact">
+        <h3 tabindex="0" id="gt">Get In Touch</h3>
+        <p tabindex="0" class="leading" id="pls">Please fill out our form, and we will get in touch shortly.</p>
+        <form class="Vform" action="https://submit-form.com/MXHTKZmO" method="post">
+          <fieldset id="P_Info" aria-labelledby="P_Info">
+            <legend id="info">Personal Information</legend>
+            <label for="first-name"><span id="fn"> FIRST NAME </span>
+              <span class="required">(Required)</span></label>
+              <input id="first-name" name="first-name" type="text" title="You must input a real first name" required>
+            <label for="last-name"><span id="ln"> LAST NAME </span>
+              <span class="required">(Required)</span></label>
+              <input id="last-name" name="last-name" type="text" title="You must input a real last name" required>
+            <label for="email"><span id="mail"> EMAIL </span>
+              <span class="required">(Required)</span></label>
+              <input id="email" name="email" type="email" title="You must input a valid email address" required>
+            <label for="country"><span id="land"> COUNTRY </span>
+              <span class="required">(Required)</span></label>
+              <input id="country" name="country" type="text" title="Country field can't left empty" required>
+          </fieldset>
+          <fieldset id="SMS">
+            <legend id="SMSsec">Message Section</legend>
+            <label for="title"><span id="SMSTitle"> TITLE </span>
+              <span class="required">(Required)</span></label>
+              <input id="title" name="title" type="text" title="You must input a title for your inquiry" required>
+            <label for="message"><span id="SMSBody"> YOUR MESSAGE </span>
+              <span class="required">(Required)</span></label>
+              <textarea id="message" name="message" title="Please give us a little more information about your inquiry" required></textarea>
+          </fieldset>
+          <input type="hidden" name="_feedback.dark" value="true" />
+          <input type="hidden" name="_email.subject" value="Sirius got a new inquiry!" />
+          <button id="Send_btn" aria-labelledby="Send_btn" class="button" type="submit">SEND MESSAGE</button>
+        </form>
+      </div>
+      <div tabindex="0" id="support" aria-labelledby="support">
+        <h4><span id="SOS">If you want to Support Us ..</span>
+        <button id="Donation_btn" aria-labelledby="Donation_btn" type="button" class="button"> Donate Now! </button></h4>
+      </div>
+    </main>
+
+    <footer>
+      <h5><i class="far fa-copyright fa-xs"></i> <script>document.write(new Date().getFullYear());</script> <span id="copyright">Sirius, Ltd. All Rights Reserved.</span></h5>
+      <a href="https://twitter.com/sirius_company" target="_blank"><i class="fab fa-twitter-square fa-2x" title="Twitter Icon to go to our page"></i></a>
+      <a href="https://www.facebook.com/Sirius3S" target="_blank"><i class="fab fa-facebook-square fa-2x" title="Facebook Icon to go to our page"></i></a>
+      <a href="mailto:info@siriuscompany.net" target="_blank"><i class="fas fa-envelope-square fa-2x" title="Email Icon to send us an email"></i></a>
+      <div class="lang-menu dropup" title="Dropup Menu to Select The Website Languge">
+        <button id="selected-lang" type="button" class="btn btn-warning btn-small selected-lang" data-toggle="dropdown">
+            <span class="flag-icon flag-icon-gb"></span> English </button>
+          <div class="dropdown-menu">
+            <ul id="lang" title="Language Options">
+              <li><a class="dropdown-item" href="#ar" data-reload>
+                <span class="flag-icon flag-icon-ae"></span><h5 id="ae"> Arabic </h5></a></li>
+              <li><a class="dropdown-item" href="#nl" data-reload>
+                <span class="flag-icon flag-icon-nl"></span><h5 id="nl"> Dutch </h5></a></li>
+              <li><a class="dropdown-item" href="#en" data-reload>
+                <span class="flag-icon flag-icon-gb"></span><h5 id="en"> English </h5></a></li>
+              <li><a class="dropdown-item" href="#fr" data-reload>
+                <span class="flag-icon flag-icon-fr"></span><h5 id="fr"> French </h5></a></li>
+              <li><a class="dropdown-item" href="#de" data-reload>
+                <span class="flag-icon flag-icon-de"></span><h5 id="de"> German </h5></a></li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src = "js/Sirius.js"></script>
+    <script src = "js/Contact.js"></script>
+  </body>
+</html>

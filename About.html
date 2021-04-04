@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://kit.fontawesome.com/c4ec55e32a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha512-Cv93isQdFwaKBV+Z4X8kaVBYWHST58Xb/jVOcV9aRsGSArZsgAnFIhMpDoMDcFNoUtday1hdjn0nGp3+KZyyFw==" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="css/Sirius_Style.css"/>
+  <link rel="icon" type="image/png" href="images/LoGoS.png"/>
+  <title>Sirius Company</title>
+</head>
+  <body>
+    <a class="skip-navigation" href="#main"><span id="skip">Skip Navigation</span></a>
+    <header>
+      <nav>
+        <div class ="FontLogo" title="Sirius Logo anchor that take you to the Home Page"><a href="index.html" class = "active"><img alt="Sirius Font Logo" src="images/Sirius_Font.png"></a></div>
+        <div tabindex="0" class="topnav" id="mTopnav" title="Top Navigation Includes four Pages">
+          <a id="aUs" href="#"><span id="about">About Us</span></a>
+          <a href="Team.html"><span id="team">Our Team</span></a>
+          <a href="Product.html"><span id="prod">Products</span></a>
+          <a href="Contact.html"><span id="con">Contact Us</span></a>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a id="Mob-nav" href="javascript:void(0);" role="button" class="icon" onclick="myFunction()" aria-label="Mobile Navigation Button" aria-expanded="false">
+            <i class="fa fa-bars"></i></a>
+          </div>
+        </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+    <section class="sm-view">
+    <!-- Collapse buttons -->
+    <div class="btn-group btn-group-toggle" role="group" aria-label="Vision,Mission,Value">
+      <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#Visioncollap"
+        aria-expanded="false" aria-controls="Vision"><span class="icon-raw" id="circ"><img src="images/about/vision.ico" alt="Vision Icon"></span><span class="text" id="vis-sm"> Vision </span></button>
+      <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#Missioncollap"
+        aria-expanded="false" aria-controls="Mission"><span class="icon-raw"><img src="images/about/mission-sm.ico" alt="Mission Icon"></span><span class="text" id="mis-sm"> Mission </span></button>
+      <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#Valcollap"
+        aria-expanded="false" aria-controls="Value"><span class="icon-raw"><img src="images/about/value-sm.ico" alt="Value Icon"></span><span class="text" id="val-sm"> Value </span></button>
+   </div>
+    <!-- Collapsible element -->
+    <div class="collapse" id="Visioncollap" aria-labelledby="Visioncollap">
+      <div class="card card-body mt-3 mb-3">
+        <h3 id="vistext-sm">Resurrection Radiance of Rehabilitation.</h3>
+      </div>
+    </div>
+    <div class="collapse" id="Missioncollap" aria-labelledby="Missioncollap">
+      <div class="card card-body mt-3 mb-3">
+        <h3 id="mistext-sm">Diving across Technology to provide humanity needs by integrating people with disabilities.
+          <span class="sm-break">Over time we pursue to be the first who use nanotechnology to manufacture embedded<span class="bg-break"> instruments for whom heve special needs.</span></span></h3>
+      </div>
+    </div>
+    <div class="collapse show" id="Valcollap" aria-labelledby="Valcollap">
+      <div class="card card-body mt-3 mb-3">
+        <h3 id="valtext-sm">To be all as <span>EQUAL</span> as <span>ONE</span> & Give a Spark of <span>HOPE</span> for a Better <span>LIFE!</span></h3>
+      </div>
+    </div>
+    <div id="slogan" aria-labelledby="slogan">
+      <h4><span class="icon"><img src="images/about/slogan.ico" alt="Slogan Icon"></span><span id="slog-sm"> Spread Similarity Spark </span></h4>
+    </div>
+  </section>
+  <section class="lg-view grid">
+    <div tabindex="0" id="Vision" class="grid" aria-labelledby="Vision">
+      <h2 id="vis-lg"> Vision </h2>
+      <img src="images/about/vision_noc.ico" alt="Vision Icon">
+      <h3 id="vistext-lg"> Resurrection Radiane of Rehabilitation. </h3>
+    </div>
+    <div tabindex="0" id="Mission" class="grid" aria-labelledby="Mission">
+      <h2 id="mis-lg"> Mission </h2>
+      <img src="images/about/mission_noc.ico" alt="Mission Icon">
+      <h3 id="mistext-lg"> Diving across Technology to provide humanity needs by integrating people with disabilities. </h3>
+    </div>
+    <div tabindex="0" id="Value" class="grid" aria-labelledby="Value">
+      <h2 id="val-lg"> Value </h2>
+      <img src="images/about/value_noc.ico" alt="Value Icon">
+      <h3 id="valtext-lg"> To be all as EQUAL as ONE & Give a Spark of HOPE for a Better LIFE! </h3>
+    </div>
+    <div tabindex="0" id="slog" aria-labelledby="slog">
+      <img src="images/about/slogan.ico" alt="Slogan Icon">
+      <h4 id="slog-lg"> Spread Similarity Spark </h4>
+    </div>
+  </section>
+  </main>
+
+    <footer>
+      <h5><i class="far fa-copyright fa-xs"></i> <script>document.write(new Date().getFullYear());</script> <span id="copyright">Sirius, Ltd. All Rights Reserved.</span></h5>
+      <a href="https://twitter.com/sirius_company" target="_blank"><i class="fab fa-twitter-square fa-2x" title="Twitter Icon to go to our page"></i></a>
+      <a href="https://www.facebook.com/Sirius3S" target="_blank"><i class="fab fa-facebook-square fa-2x" title="Facebook Icon to go to our page"></i></a>
+      <a href="mailto:info@siriuscompany.net" target="_blank"><i class="fas fa-envelope-square fa-2x" title="Email Icon to send us an email"></i></a>
+      <div class="lang-menu dropup" title="Dropup Menu to Select The Website Languge">
+        <button id="selected-lang" type="button" class="btn btn-warning btn-small selected-lang" data-toggle="dropdown">
+            <span class="flag-icon flag-icon-gb"></span> English </button>
+          <div class="dropdown-menu">
+            <ul id="lang" title="Language Options">
+              <li><a class="dropdown-item" href="#ar" data-reload>
+                <span class="flag-icon flag-icon-ae"></span><h5 id="ae"> Arabic </h5></a></li>
+              <li><a class="dropdown-item" href="#nl" data-reload>
+                <span class="flag-icon flag-icon-nl"></span><h5 id="nl"> Dutch </h5></a></li>
+              <li><a class="dropdown-item" href="#en" data-reload>
+                <span class="flag-icon flag-icon-gb"></span><h5 id="en"> English </h5></a></li>
+              <li><a class="dropdown-item" href="#fr" data-reload>
+                <span class="flag-icon flag-icon-fr"></span><h5 id="fr"> French </h5></a></li>
+              <li><a class="dropdown-item" href="#de" data-reload>
+                <span class="flag-icon flag-icon-de"></span><h5 id="de"> German </h5></a></li>
+            </ul>
+          </div>
+      </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src = "js/Sirius.js"></script>
+    <script src = "js/About.js"></script>
+  </body>
+</html>

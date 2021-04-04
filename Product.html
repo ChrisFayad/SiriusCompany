@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://kit.fontawesome.com/c4ec55e32a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha512-Cv93isQdFwaKBV+Z4X8kaVBYWHST58Xb/jVOcV9aRsGSArZsgAnFIhMpDoMDcFNoUtday1hdjn0nGp3+KZyyFw==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/Sirius_Style.css"/>
+  <link rel="icon" type="image/png" href="images/LoGoS.png"/>
+  <title>Sirius Company</title>
+</head>
+  <body>
+    <a class="skip-navigation" href="#main"><span id="skip">Skip Navigation</span></a>
+    <header>
+      <nav>
+        <div class ="FontLogo" title="Sirius Logo anchor that take you to the Home Page"><a href="index.html" class = "active"><img alt="Sirius Font Logo" src="images/Sirius_Font.png"/></a></div>
+        <div tabindex="0" class="topnav" id="mTopnav" title="Top Navigation Includes four Pages">
+          <a id="aUs" href="About.html"><span id="about">About Us</span></a>
+          <a href="Team.html"><span id="team">Our Team</span></a>
+          <a href="#"><span id="prod">Products</span></a>
+          <a href="Contact.html"><span id="con">Contact Us</span></a>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a id="Mob-nav" href="javascript:void(0);" role="button" class="icon" onclick="myFunction()" aria-label="Mobile Navigation Button" aria-expanded="false">
+            <i class="fa fa-bars"></i></a>
+          </div>
+        </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="sm-view">
+      <div class="box-container" id="product"><h2> Products </h2>
+        <div id="product_accordion" title="Accordion">
+          <div class="card">
+            <div class="card-header">
+              <a class="card-link" data-toggle="collapse" href="#Echo+collapse" aria-controls="Echo+collapse" aria-expanded="false">
+                <h1 id="echo">Echo+</h1></a></div>
+                <div id="Echo+collapse" class="collapse" aria-labelledby="Echo+collapse" data-parent="#product_accordion">
+                  <div class="card-body">
+                    <p id="echotxt-sm">It is a Glove containing a set of sensors to analyze and translate
+                        "Sign Language" to spoken and written Arabic Language.</p>
+                  </div></div></div>
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#Argo+collapse" aria-controls="Argo+collapse" aria-expanded="false">
+                  <h1 id="argo">Argo+</h1></a></div>
+                  <div id="Argo+collapse" class="collapse" aria-labelledby="Argo+collapse" data-parent="#product_accordion">
+                    <div class="card-body">
+                      <p id="argotxt-sm">It is a Glove for the blind/blind-deaf people which contains a range of
+                          touch sensors at the front side and a small vibrating motor from the outside
+                          to ensure communication with the near & far people around them vice versa.</p>
+                    </div></div></div>
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#Futurecollapse" aria-controls="Futurecollapse" aria-expanded="false">
+                  <h1 id="future">Future Plans</h1></a></div>
+                  <div id="Futurecollapse" class="collapse" aria-labelledby="Futurecollapse" data-parent="#product_accordion">
+                    <div class="card-body">
+                      <ul>
+                        <li><p id="f1-sm">Artificial Limbs</p></li>
+                        <li><p id="f2-sm">Non-Surgical Spinal Decompression Treatment</p></li>
+                    </ul>
+                    </div></div></div>
+            </div>
+          </div>
+        </section>
+        <section class="lg-view grid" id="lg-product">
+          <div tabindex="0" id="Echo" aria-labelledby="Echo">
+            <img src="images/products/Echo+.jpg" alt="Echo+ written in Sign Language">
+            <p id="echotxt-lg"> It is a Glove that containing a set of sensors to analyze and translate
+                "Sign Language" to spoken and written Arabic Language. </p>
+          </div>
+          <div tabindex="0" id="Argo" aria-labelledby="Argo">
+            <img src="images/products/Argo+.jpg" alt="Argo+ written in Braille">
+            <p id="argotxt-lg"> It is a Glove for the blind/blind-deaf people that contains a range of
+                touch sensors at the front side and a small vibrating motor from the outside
+                to ensure communication with the near & far people around them vice versa. </p>
+          </div>
+          <div tabindex="0" id="Future" aria-labelledby="Future">
+            <img src="images/products/Future_3.jpg" alt="" >
+              <p><i class="fas fa-angle-double-right"></i> <span id="f1-lg">Artificial Limbs </span></p>
+              <p><i class="fas fa-angle-double-right"></i> <span id="f2-lg">Non-Surgical Spinal Decompression Treatment </span></p>
+          </div>
+        </section>
+        <div tabindex="0" id="goal" aria-labelledby="goal">
+          <h4 id="goaltext"> Our <span>Goal</span> is to <span>Empower</span> every <span>Disabled Person</span> to feel <span>Socially Integrated</span> & fully <span>Experience</span> the <span>World</span> without <span>Barriers.</span> </h4>
+        </div>
+    </main>
+
+    <footer>
+      <h5><i class="far fa-copyright fa-xs"></i> <script>document.write(new Date().getFullYear());</script> <span id="copyright">Sirius, Ltd. All Rights Reserved.</span></h5>
+      <a href="https://twitter.com/sirius_company" target="_blank"><i class="fab fa-twitter-square fa-2x" title="Twitter Icon to go to our page"></i></a>
+      <a href="https://www.facebook.com/Sirius3S" target="_blank"><i class="fab fa-facebook-square fa-2x" title="Facebook Icon to go to our page"></i></a>
+      <a href="mailto:info@siriuscompany.net" target="_blank"><i class="fas fa-envelope-square fa-2x" title="Email Icon to send us an email"></i></a>
+      <div class="lang-menu dropup" title="Dropup Menu to Select The Website Languge">
+        <button id="selected-lang" type="button" class="btn btn-warning btn-small selected-lang" data-toggle="dropdown">
+            <span class="flag-icon flag-icon-gb"></span> English </button>
+          <div class="dropdown-menu">
+            <ul id="lang" title="Language Options">
+              <li><a class="dropdown-item" href="#ar" data-reload>
+                <span class="flag-icon flag-icon-ae"></span><h5 id="ae"> Arabic </h5></a></li>
+              <li><a class="dropdown-item" href="#nl" data-reload>
+                <span class="flag-icon flag-icon-nl"></span><h5 id="nl"> Dutch </h5></a></li>
+              <li><a class="dropdown-item" href="#en" data-reload>
+                <span class="flag-icon flag-icon-gb"></span><h5 id="en"> English </h5></a></li>
+              <li><a class="dropdown-item" href="#fr" data-reload>
+                <span class="flag-icon flag-icon-fr"></span><h5 id="fr"> French </h5></a></li>
+              <li><a class="dropdown-item" href="#de" data-reload>
+                <span class="flag-icon flag-icon-de"></span><h5 id="de"> German </h5></a></li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src = "js/Sirius.js"></script>
+    <script src = "js/Product.js"></script>
+  </body>
+</html>
