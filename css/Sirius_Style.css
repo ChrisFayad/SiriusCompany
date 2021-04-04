@@ -144,6 +144,15 @@ p {
   color: black;
   text-align: center;
 }
+/* Different Browsers */
+@-moz-document url-prefix() {
+  h1 {
+    font-weight: 600;
+  }
+  h3 {
+    font-family: "Rockwell Extra Bold";
+  }
+}
 
 /* mobile styles */
 .lg-view {
