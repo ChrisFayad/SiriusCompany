@@ -27,6 +27,7 @@ body {
   overflow-x: hidden;
   background-image: url("../images/Shush.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
   background-position: center;
   padding-bottom: 78.5px;
