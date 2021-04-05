@@ -4,7 +4,7 @@
 
  The website contains 5 pages: Home, About Us, Our Team, Products, and Contact Us.
 
- The website also built as Multilanguage’s: Arabic, Dutch, English, French, and German.
+ The website is also built as Multilanguage’s: Arabic, Dutch, English, French, and German.
 
  Note_1: The default language is English.
  Note_2: The translation was structured using JSON as an open standard data-interchange format.
