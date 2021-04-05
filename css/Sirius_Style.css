@@ -154,13 +154,8 @@ p {
     font-family: "Rockwell Extra Bold";
   }
 }
-@-webkit-document url-prefix() {
-  h1 {
-    font-weight: 600;
-  }
-  h3 {
-    font-family: "Rockwell Extra Bold";
-  }
+body {
+  -webkit-text-size-adjust:100%;
 }
 /* mobile styles */
 .lg-view {
