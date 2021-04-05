@@ -13,11 +13,14 @@
 
 The website was designed depending on "Mobile First" approach.
 
-The Website is fully accessible for keyboard & screen-only users by using (skip-navigation anchor, tabindex, title, role,aria-label,aria-expanded, and aria-labelledby).
+The Website is fully accessible for keyboard & screen-only users by using (skip-navigation anchor, tabindex, title, role, aria-label, aria-expanded, and aria-labelledby).
 
 The website is static, but we are using a form backend API for the contact us page provided by "formspark".
 
 The website was written using HTML5, CSS3, JS, jQuery, Bootstrap 4, and Fontawosame 5.
+
+The website was tested on Chrome, Firefox, Microsoft Edge, and Safari.
+Some changes needed to be made to maintain the look for the text.
 
 The website is fully validated, no errors whatsoever. However, The Product.html has one warning
 (Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections).
