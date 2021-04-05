@@ -154,7 +154,14 @@ p {
     font-family: "Rockwell Extra Bold";
   }
 }
-
+@-webkit-document url-prefix() {
+  h1 {
+    font-weight: 600;
+  }
+  h3 {
+    font-family: "Rockwell Extra Bold";
+  }
+}
 /* mobile styles */
 .lg-view {
   display: none;
@@ -437,7 +444,7 @@ footer a:hover {
 #rot img {
   transform: rotate(10deg);
 }
-.card-body {
+#CEOcollap .card-body, #CTOcollap .card-body {
   height: 200px;
 }
 #CEOcollap, #CTOcollap {
