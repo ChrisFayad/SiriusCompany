@@ -18,6 +18,12 @@ $(document).ready(function(){
     $(this).toggleClass('fa-play-circle fa-pause-circle');
     $(this).attr('aria-pressed', 'true');
   });
+  $('.Vform input').on('keyup', function(e){
+    $(this).addClass('edited');
+  });
+  $('#Donation_btn').on('click keydown' ,function() {
+    window.open("https://paypal.me/SiriusCompany?locale.x=en_GB", "_blank");
+  });
 });
 
 var modal = document.getElementsByClassName('bg-modal');
@@ -71,8 +77,4 @@ window.addEventListener('keydown', function (event) {
     modal[2].style.display = 'none';
     stopVideo(modal[1]);
   }
-});
-
-$('.Vform input').on('keyup', function(e){
-  $(this).addClass('edited');
 });
