@@ -22,8 +22,10 @@ The website was written using HTML5, CSS3, JS, jQuery, Bootstrap 4, and Fontawos
 The website was tested on Chrome, Firefox, Microsoft Edge, and Safari.
 Some changes needed to be made to maintain the look for the text.
 
-The website is fully validated, no errors whatsoever. However, The Product.html has one warning
+The website is fully validated through https://validator.w3.org/, no errors whatsoever. However, The Product.html has one warning
 (Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections).
+
+The website is fully validated through https://wave.webaim.org/, no errors whatsoever through all pages. However, Products Page has 7 Contrast Errors for the same reason (The validator don't see the text-shadow style as part or the span style).
 
 The website is responsive and we have four viewport: Mobile, Small Tablet, Large Tablet & Laptop, and Desktop.
 The About Us, Our Team, and Products Page have completely different layout between Mobile & Small Tablet vs. Large Tablet & Laptop, and Desktop.
