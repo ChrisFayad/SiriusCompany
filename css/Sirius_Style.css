@@ -366,7 +366,7 @@ footer a:hover {
 /** About Us Page **/
 .btn-group {
   width: 100%;
-  margin: 0 0.5%;
+  margin: 0 1%;
 }
 .btn-group .btn {
   width: 33%;
@@ -377,10 +377,8 @@ footer a:hover {
   visibility: hidden;
 }
 .icon-raw img {
-  width: 107.767px;
+  width: 100%;
   height: auto;
-  margin-left: 10.013px;
-  margin-right: 10.013px;
 }
 #circ img {
   border-radius: 50%;
@@ -408,6 +406,7 @@ footer a:hover {
 
 #slogan {
   width: 100%;
+  margin: 0 1%;
   padding: 10px;
   border: 2px solid white;
   background-color: #343A40;
@@ -432,7 +431,7 @@ footer a:hover {
   visibility: hidden;
 }
 .teamicon img {
-  width: 109px;
+  width: 100%;
   height: auto;
   border-radius: 50%;
 }
@@ -476,11 +475,11 @@ footer a:hover {
 }
 
 #idol{
-  width: 100%;
+  width: 99%;
   padding: 10px;
   border: 2px solid white;
   background-color: #343A40;
-  margin: 0 auto;
+  margin: 0 0.5%;
 }
 #idol h4 {
   text-align: center;
@@ -562,7 +561,7 @@ footer a:hover {
   width: 100%;
   margin: 5px 15%;
 }
-#contact input, #contact select, #contact textarea {
+#contact input, #contact textarea {
   width: 70%;
   margin: 10px 15%;
 }
@@ -583,7 +582,7 @@ footer a:hover {
   border: 2px solid var(--anchBtn);
   background-color: #F2F2;
   border-radius: 15px;
-  font-size: 1.4em;
+  font-size: 1.4em !important;
   text-align: center;
 }
 #support button {
@@ -682,7 +681,7 @@ footer a:hover {
   }
   .icon-raw img {
     margin-left: 10%;
-    width: 63.1167px;
+    width: 30%;
     float: left;
   }
   .collapse {
@@ -704,14 +703,14 @@ footer a:hover {
     margin: 0 auto;
   }
   #slogan h4 {
-    font-size: 1.8em;
+    font-size: 1.8em !important;
   }
   .icon img {
     width: 100px;
   }
   /** Our Team Page **/
   .teamicon img {
-    width: 68.14px;
+    width: 20%;
     margin: 0 auto;
   }
   .btn-group[aria-label="Our Team"] {
@@ -723,10 +722,27 @@ footer a:hover {
     visibility: visible;
     text-align: center;
   }
+  #CEOcollap .card-body, #CTOcollap .card-body {
+    height: 147.35px;
+  }
+  #CEOcollap, #CTOcollap {
+    height: 147.35px;
+    margin-bottom: 15px;
+  }
+  .collapse img {
+    margin-left: 5%;
+  }
+  #CEOcollap .cont p, #COOcollap .cont p {
+    left: 48%;
+  }
+  #CTOcollap .cont p {
+    left: 45%;
+  }
   #idol {
     max-width: 487.46px;
     padding: 20px;
     border-radius: 50px;
+    margin: 0 auto;
   }
   /** Product Page **/
   #goal {
@@ -734,6 +750,9 @@ footer a:hover {
     border-radius: 15px;
   }
   /** Contact Us Page **/
+  main {
+    margin-bottom: 30px;
+  }
   .leading span {
     display: inline;
   }
@@ -742,7 +761,7 @@ footer a:hover {
   }
   #support button {
     margin-left: 50px;
-    margin-top: 0px;
+    margin-top: 5px;
     font-size: 1.6em !important;
   }
 }
@@ -754,9 +773,6 @@ footer a:hover {
     position: relative;
     min-height: 100vh;
     padding-bottom: 80.5px;
-  }
-  main {
-    margin-bottom: 30px;
   }
   footer {
     position: absolute;
@@ -942,9 +958,15 @@ footer a:hover {
     grid-row: 2;
   }
   /** About Us Page **/
+  .lg-view {
+    margin: 25% auto;
+  }
   .lg-view img {
     width: 120%;
     height: auto;
+  }
+  .lg-view #Vision, .lg-view #Value {
+    margin: 0 3%;
   }
   .lg-view #Vision {
     border: 2px solid white;
@@ -1036,6 +1058,7 @@ footer a:hover {
     background-color: #343A40;
     border-radius: 15px;
     grid-row: 2/10;
+    margin-left: 3%;
   }
   #slog img {
     width: 70%;
@@ -1049,6 +1072,9 @@ footer a:hover {
     line-height: 2.5em;
   }
   /** Our Team **/
+  .lg-view {
+    margin-bottom: 10%;
+  }
   #Team > div {
     text-align: center;
   }
@@ -1108,11 +1134,10 @@ footer a:hover {
     border-radius: 15px;
     width: auto;
     height: auto;
-    margin: 0 auto 10px auto;
+    margin: 30px auto 10px auto;
   }
   #CTO p {width: 181.06px;}
   #COO p {
-    margin-top: 30px;
     padding: 10px 0;
   }
   #CEO p, #CTO p {
@@ -1122,8 +1147,8 @@ footer a:hover {
     margin-top: 10px;
   }
   /** Product Page **/
-  #lg-product {
-    margin-bottom: 20px;
+  .lg-view {
+    margin-top: 20%;
   }
   #lg-product img {
     width: 100%;
@@ -1231,7 +1256,7 @@ footer a:hover {
   body {
     font-size: 20px; /*default value for the em*/
     background-size: cover;
-    padding-bottom: 88.33px;
+    padding-bottom: 107px;
   }
   .sm-view {
     display: none;
@@ -1255,6 +1280,9 @@ footer a:hover {
     margin-top: 1.3em;
   }
   /** Home Page **/
+  .lg-view {
+    margin: 5% auto;
+  }
   .info {
     margin: 5% 15% 0;
   }
@@ -1271,18 +1299,19 @@ footer a:hover {
     font-size: 1.5em;
     font-weight: bolder;
   }
+  .container {
+    margin: 0 auto;
+}
   /** About Us Page **/
 
   /** Our Team Page **/
-  #Team p {
-    /*height: 157px;*/
-  }
   #CTO p {width: 200px;}
   #CEO p, #CTO p {
     padding-top: 17px;
   }
   #idol {
     max-width: 694.83px;
+    margin-bottom: 2%;
   }
   /** Our Product Page **/
 
