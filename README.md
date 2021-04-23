@@ -8,7 +8,7 @@
 
  Note_1: The default language is English.
  Note_2: The translation was structured using JSON as an open standard data-interchange format.
- Note_3: The Website is fully working in all languages except for the Dutch language.
+ Note_3: The Website is fully working in all languages.
  Note_4: Although the website is fully translated into Arabic but we are considering making a different html file because of the language structure.
 
 The website was designed depending on "Mobile First" approach.
